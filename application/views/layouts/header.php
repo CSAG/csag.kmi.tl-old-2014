@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/Flat-UI-master/dist/css/flat-ui.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/font-awesome.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/header.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/organization-style.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/animations.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/pages/home.css") ?>">
   </head>
   <body>

@@ -26,5 +26,7 @@
     </section>
     <script src="<?= base_url("assets/javascripts/jquery.min.js") ?>"></script>
     <script src="<?= base_url("assets/javascripts/bootstrap.min.js") ?>"></script>
+    <script src="<?= base_url("assets/javascripts/css3-animate-it.js") ?>"></script>
+    <script src="<?= base_url("assets/javascripts/custom-effect.js") ?>"></script>
   </body>
 </html>
