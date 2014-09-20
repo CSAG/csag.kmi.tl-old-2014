@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/Flat-UI-master/dist/css/flat-ui.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/font-awesome.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/header.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/organization-style.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/animations.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/pages/home.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/pages/experiences.css") ?>">
   </head>
   <body>
 		<nav class="navbar navbar-static-top navbar-inverse" role="navigation">
@@ -34,7 +33,7 @@
                   <li><a href="<?= site_url('events/cmat') ?>">Mini Admin Training</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
+              <li class="dropdown <?= isset($about_active) && $about_active ? 'active' : '' ?>">
                 <a class="dropdown-toggle" data-toggle="dropdown">
                   About Us
                   <b class="caret"></b>

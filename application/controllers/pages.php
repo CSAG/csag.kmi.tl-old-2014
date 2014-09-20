@@ -45,19 +45,22 @@ class Pages extends CI_Controller {
   }
 
   public function experiences() {
-    redirect('under_construction');
-  }
+    $this->load->helper('form');
 
-  public function about() {
-     $this->load->helper('form');
-    
     if ($this->session->userdata('email')) {
       $data['logged_in'] = TRUE;
     } else {
       $data['logged_in'] = FALSE;
     }
+
+    $data['about_active'] = TRUE;
+
     $this->load->view('layouts/header', $data);
-    $this->load->view('pages/about');
+    $this->load->view('pages/experiences');
     $this->load->view('layouts/footer');
+  }
+
+  public function about() {
+    redirect('under_construction');
   }
 }

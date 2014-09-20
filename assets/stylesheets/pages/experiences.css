@@ -1,0 +1,19 @@
+section.experiences-body{
+  background-color: #fff;
+  color: #5e5e5e;
+}
+
+.exp-block {
+  overflow: hidden;
+  position: relative;
+}
+
+.exp-block .thumbnail{
+  overflow: hidden;
+  position: relative;
+}
+
+.exp-block img{
+   height: 30%;
+   posiiton: absolute;
+}
