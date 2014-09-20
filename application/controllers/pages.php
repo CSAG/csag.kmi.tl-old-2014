@@ -41,7 +41,17 @@ class Pages extends CI_Controller {
   }
 
   public function products() {
-    redirect('under_construction');
+     $this->load->helper('form');
+
+    if ($this->session->userdata('email')) {
+      $data['logged_in'] = TRUE;
+    } else {
+      $data['logged_in'] = FALSE;
+    }
+
+    $this->load->view('layouts/header', $data);
+    $this->load->view('pages/product');
+    $this->load->view('layouts/footer');
   }
 
   public function experiences() {
