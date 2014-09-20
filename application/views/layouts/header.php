@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/organization-style.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/animations.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/stylesheets/pages/home.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/stylesheets/pages/experiences.css") ?>">
   </head>
   <body>
 		<nav class="navbar navbar-static-top navbar-inverse" role="navigation">
@@ -46,7 +47,7 @@
                 </ul>
               </li>
             </ul>
-            <? if (!$logged_in): ?>
+            <?php if (!$logged_in): ?>
               <?= form_open('sessions/create', array('class' => 'navbar-form navbar-right')); ?>
                 <div class="form-group">
                   <input type="text" class="form-control" name="email" placeholder="Email">
@@ -56,13 +57,13 @@
                 </div>
                 <button type="submit" class="btn btn-default">Login</button>
               </form>
-            <? else: ?>
+            <?php else: ?>
               <ul class="nav navbar-nav navbar-right">
                 <li><p class="navbar-text navbar-right">Welcome <?= $this->session->userdata('fullname') ?></p></li>
                 <li class="divider-vertical"></li>
                 <li><a href="<?= site_url('sessions/destroy') ?>">Log out</a></li>
               </ul>
-            <? endif; ?>
+            <?php endif; ?>
           </div>
         </div>
       </nav>

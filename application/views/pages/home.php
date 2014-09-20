@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="col-md-4" >
-        <? if (!$logged_in): ?>
+        <?php if (!$logged_in): ?>
           <h3 align="center"><b>Registration</b></h3>
           <?= form_open('registrations/create'); ?>
             <div class="form-group">
@@ -34,7 +34,7 @@
             </div>
             <button type="submit" class="btn btn-danger" style="width:100%;  font-size:200%;">Register</button>
           </form>
-        <? else: ?>
+        <?php else: ?>
           <h3 align="center"><b>Agenda</b></h3>
           <table id="mini-admin-agenda" class="table table-hover">
             <thead>
@@ -68,7 +68,7 @@
               </tr>
             </tbody>
           </table>
-        <? endif; ?>
+        <?php endif; ?>
       </div>
     </div>
   </div>
