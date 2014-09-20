@@ -15,6 +15,18 @@
 
 	}
 
+	.four {
+		position: relative;
+		height:250px;
+		color: white;
+		text-align: center;
+	}
+
+	.four-content {
+		
+	}
+
+
 	nav {
 		margin-bottom: 0px !important;
 		border-radius: 0px !important;
