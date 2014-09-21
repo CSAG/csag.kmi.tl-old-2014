@@ -1,4 +1,11 @@
-﻿<section style="background-color:#fff; padding-bottom:5%; padding-top:5%;">
+﻿<!-- WHITE BASE DESIGN TEST -->
+				<style type="text/css">
+					body {
+						background-color:white;
+					}
+				</style>
+
+<section style="background-color:#fff; padding-bottom:5%; padding-top:5%;">
   <div class="container">
     <div class="row">
    <span style="font-size:200%;">Webserv 3.0</span>
