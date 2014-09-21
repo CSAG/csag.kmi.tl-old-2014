@@ -3,8 +3,9 @@
     <div class="row">
       <div class="col-md-8" style="margin-top:9%;">
         <h3 align="center"><b>CSAG Mini Admin Training 2014</b></h3>
-        <p class="csag-announce">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กิจกรรมอบรมเชิงปฏิบัติการมินิแอดมินและรับสมาชิกใหม่ปีการศึกษา 2557 จะจัดขึ้นในวันที่ 18-19 ตุลาคม 2557 โดยสามารถสมัครเข้าร่วมกิจกรรมที่นี่ ตั้งแต่วันที่ 15 กันยายน 2557 - 12 ตุลาคม 2557
-    สามารถติดตามรายละเอียดเพิ่มเติมได้ที่ <a href="https://www.facebook.com/groups/csagcommunity/" style="color:#f1c40f;">CSAG Community</a></p>
+        <p class="csag-announce">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; กิจกรรมอบรมเชิงปฏิบัติการสำหรับน้องๆที่มีความสนใจทางด้าน network, system และ web app. กำลังจะมีขึ้นในวันที่ 18-19 ตุลาคม โดยสามารถลงทะเบียน เข้าร่วมงานได้จนถึงวันที่ 12 ตุลาคมนี้<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;นอกจากนี้สำหรับน้องๆปีหนึ่งที่สนใจเข้าร่วมเป็นสมาชิก CSAG สามารถเลือกสมัครสอบ Mini Admin Exam เพื่อรับสิทธิ์คัดเลือกเข้าสัมภาษณ์ในอนาคตได้ด้วย <br/>
+(สามารถติดตามกิจกรรมอื่นๆเพิ่มเติมได้ที่ 
+    <a href="https://www.facebook.com/groups/csagcommunity/" style="color:#f1c40f;">CSAG Community</a>)</p>
         <div class="col-md-6 col-md-offset-3">
           <a class="btn btn-lg btn-inverse" href="<?= site_url('events/cmat') ?>">Learn more</a>
           <a class="btn btn-lg btn-default btn-csagc" href="https://www.facebook.com/groups/csagcommunity/">CSAG Community</a>

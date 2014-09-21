@@ -48,6 +48,7 @@ class Pages extends CI_Controller {
     } else {
       $data['logged_in'] = FALSE;
     }
+    $data['about_active'] = TRUE;
 
     $this->load->view('layouts/header', $data);
     $this->load->view('pages/product');
@@ -62,6 +63,7 @@ class Pages extends CI_Controller {
     } else {
       $data['logged_in'] = FALSE;
     }
+    $data['about_active'] = TRUE;
 
     $this->load->view('layouts/header', $data);
     $this->load->view('pages/experiences');
@@ -76,6 +78,8 @@ class Pages extends CI_Controller {
     } else {
       $data['logged_in'] = FALSE;
     }
+    $data['about_active'] = TRUE;
+
     $this->load->view('layouts/header', $data);
     $this->load->view('pages/about');
     $this->load->view('layouts/footer');

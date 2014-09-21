@@ -35,7 +35,7 @@
                   <li><a href="<?= site_url('events/cmat') ?>">Mini Admin Training</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
+              <li class="dropdown <?= isset($about_active) && $about_active? 'active': ''?>">
                 <a class="dropdown-toggle" data-toggle="dropdown">
                   About Us
                   <b class="caret"></b>
