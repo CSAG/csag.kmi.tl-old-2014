@@ -16,17 +16,37 @@
 						<div class = "row " >
 							<div class='animatedParent' data-sequence='500'>
 
-								<div class="col-sm-3 panel flipInX animated " data-id='1'>
-									<img  src="http://placehold.it/300x300" alt="" class="col-sm-11 col-sm-offset-1 img-responsive ">
+								<div class="col-sm-3 panel flipInX animated" data-id='1'>
+									<div class ="col-sm-11 col-sm-offset-1 four" style="background-color:#3498DB;">
+											<h3>Freedom</h3>
+											<p class = "bangna">
+												อิสระในการเรียนรู้
+											</p>
+									</div>
 								</div>
-								<div class="col-sm-3 panel flipInX animated "  data-id='2'>
-									<img src="http://placehold.it/300x300" alt="" class=" img-responsive col-sm-11 col-sm-offset-1">
+								<div class="col-sm-3 panel flipInX animated"  data-id='2'>
+									<div class ="col-sm-11 col-sm-offset-1 four" style="background-color:#2ECC71;">
+											<h3>Friend</h3>
+											<p class = "bangna">
+												เพื่อน และ สังคมแห่งการแบ่งปัน
+											</p>
+									</div>
 								</div>
-								<div class="col-sm-3 panel flipInX animated "  data-id='3'>
-									<img src="http://placehold.it/300x300" alt="" class=" img-responsive col-sm-11 col-sm-offset-1">
+								<div class="col-sm-3 panel flipInX animated"  data-id='3' >
+									<div class ="col-sm-11 col-sm-offset-1 four" style="background-color:#D35400;">
+											<h3>Feature</h3>
+											<p class = "bangna">
+												ทรัพยากร เพื่อการเรียนรู้
+											</p>
+									</div>
 								</div>
-								<div class="col-sm-3 panel flipInX animated "  data-id='4' >
-									<img src="http://placehold.it/300x300" alt="" class=" img-responsive col-sm-11 col-sm-offset-1">
+								<div class="col-sm-3 panel flipInX animated"  data-id='4' >
+									<div class ="col-sm-11 col-sm-offset-1 four" style="background-color:#F1C40F;">
+											<h3>Fun</h3>
+											<p class = "bangna">
+												สนุก และ เรียนรู้ไปด้วยกัน
+											</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -40,20 +60,14 @@
 					</div>
 			</div>
 
-			<div class=" nmtb animatedParent" data-sequence='500'  >
+			<div class=" nmtb animatedParent"  >
 					<p align="center" style="font-size:50px;">  Our <b> History </b></p>
 					<div class ="row">
 						<div class = "col-sm-8 col-sm-offset-2" >
-							<div class="col-sm-6  panel flipInX animated" data-id='1' >
+							<div class=" growIn animated" >
 								<div class="col-sm-8 col-sm-offset-2 ">
-									<img  src="http://placehold.it/300x300" alt="" class="img-responsive ">
+									<img  src="<?= base_url("assets/images/csc.jpg") ?>" alt="" class="img-responsive ">
 								</div>
-							</div>
-
-							<div class="col-sm-6 panel flipInX animated"  data-id='2'>
-									<div class="col-sm-8 col-sm-offset-2 ">
-										<img src="http://placehold.it/300x300" alt="" class="img-responsive">
-									</div>
 							</div>
 						</div>
 					</div>
@@ -72,252 +86,262 @@
 					<h4>Alumni</h4>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials<br>
-								name : <br>
-								Generation : <br>
-								interest : <br>
+								<b>GOLF</b>
 							</div>
 						</div>
 					</div>
 					
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials
+								<b>TUA</b>
 							</div>
 						</div>
 					</div>
 					
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials
+								<b>ADD</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials
+								<b>Nhueng</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials
+								<b>Champ</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive">
 							<div  class ="show-div">
-								Detials
+								<b>Chok</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Som</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Fern</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Save</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Ta</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Pop</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Arm</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Benz</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Bua</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/q.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Q</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/man.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Man</b>
 							</div>
 						</div>
 					</div>
 					<p class="clearfix">
 					<h4>Senior</h4>
+					<div class ="row">
+
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/fax.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Fax</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/wai.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Wai</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/farm.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Farm</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/c-ew.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>C-ew</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/bell.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Bell</b>
 							</div>
 						</div>
+					</div>
+					<div class=" col-md-3 col-sm-4">
+						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
+							<img src="<?= base_url("assets/images/member/junior.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
+							<div  class ="show-div">
+								<b>Junior</b>
+							</div>
+						</div>
+					</div>
 					</div>
 					<p class="clearfix">
 					<h4>Junior</h4><br>
+					
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/nut.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Nut</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/beam.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Beam</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/neno.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Neno</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/ko.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Ziko</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/tuck.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Tuck</b>
 							</div>
 						</div>
 					</div>
 					<p class="clearfix">
 					<h4>Sophomore</h4><br>
+					
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/kopai.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Kopai</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/oil.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>oil</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/long.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Long</b>
 							</div>
 						</div>
 					</div>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/mos.jpg") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>Mos</b>
 							</div>
 						</div>
 					</div>
@@ -325,9 +349,9 @@
 					<h4>Freshman</h4><br>
 					<div class=" col-md-3 col-sm-4">
 						<div class="col-md-10 col-md-offset-1 whiteFrame toggle">
-							<img src="http://placehold.it/100x100" alt="" class="col-md-10 col-md-offset-1 show-img ">
+							<img src="<?= base_url("assets/images/member/people.png") ?>" alt="" class="col-md-10 col-md-offset-1 show-img img-responsive ">
 							<div  class ="show-div">
-								Detials
+								<b>May be you :)</b>
 							</div>
 						</div>
 					</div>
