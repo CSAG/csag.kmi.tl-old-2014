@@ -356,35 +356,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-
-			<div class="row nmtb fontw" style="background-color:#34495e;">					
-				<div class="col-sm-4">
-					<p align="center" style="font-size:30px;"><b>LOCATION</b></p>
-					<p align="center" >Computer Service Center,</p>
-					<p align="center" >King Mongkut's Institute of Technology Ladkrabang</p>
-				</div>
-				<div class="col-sm-4">
-					<p align="center" style="font-size:30px;"><b>AROUND THE WEB</b></p>
-					<p align="center"><a href="https://www.facebook.com/groups/csagcommunity/"><i class="fa fa-facebook-square" style="font-size:50px; color:#fff;"></i><span style="font-size:30px; color:#fff;">&nbsp;&nbsp;&nbsp;CSAG Community</span></a></p>
-					<p align="center"><a href="https://www.facebook.com/csag.kmitl"><i class="fa fa-thumbs-up" style="font-size:50px; color:#fff;"></i><span style="font-size:30px; color:#fff;">&nbsp;&nbsp;&nbsp;Like us on facebook</span></a></p>
-				</div>
-					<div class="col-sm-4">
-					<p align="center" style="font-size:30px;"><b>SPECIAL THANKS</b></p>
-					<div class="col-sm-12">					
-						<p align="center" ><i class="fa fa-bold" style="font-size:50px; color:#fff; margin-left:5%;"></i>
-						<i class="fa fa-css3" style="font-size:50px; color:#fff; margin-left:5%;"></i>
-						<i class="fa fa-html5" style="font-size:50px; color:#fff; margin-left:5%;"></i>
-						<i class="fa fa-flag" style="font-size:50px; color:#fff; margin-left:5%;"></i></p>				
-						<p align="center" >© Computer System Administrator Group</p>
-						<p align="center" > System version 3.0.0 powered by CSAG</p>
-					</div>
-				</div>				
-			</div>
-			
-			
-			
+			</div>			
 			
 		  </div>
 			

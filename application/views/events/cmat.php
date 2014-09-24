@@ -72,7 +72,52 @@
         </tr>
       </table>
 
-      <h5>ขั้นตอนการลงทะเบียน</h5>
+	  -ในวันอบรมจัดขึ้นที่สำนักวิจัยและบริการคอมพิวเตอร์ <br/>
+	  -การแต่งกายให้ใส่กางเกงขายาวและรองเท้าผ้าใบ<br/>
+        -มีเครื่องคอมพิวเตอร์ให้ครับ น้องๆไม่จำเป็นต้องพกมาเอง<br/> 		
+      </div>
+    </div>
+  </div>
+</section>
+<section class="csag-event member-recruiting">
+  <div class="container">
+    <div class="row">
+      <h3 class="csag-header pull-right">Member Recruiting</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+			
+			กิจกรรมเปิดรับสมาชิกใหม่ CSAG Member Recruiting เป็นกิจกรรมเปิดรับนักศึกษาชั้นปีที่ 1 จากคณะต่างๆในสถาบันเข้าร่วมเป็นสมาชิกของกลุ่มนักศึกษาสังกัดสำนักวิจัยละบริการคอมพิวเตอร์ Computer System Administration Group 
+			โดยจัดขึ้นในวันเสาร์ที่ 1 พฤศจิกายน โดยจะมีการจัดสอบ (CSAG Mini Admin Exam) ในช่วงเวลา 13.00-16.00น. และจะมีการประกาศผู้มีสิทธิ์สอบสัมภาษณ์ในภายหลัง  
+			<h5>สิทธิพิเศษสำหรับสมาชิก CSAG</h5>
+        <ol>
+          <li>เครื่องเซิฟเวอร์สำหรับทดลองและพัฒนาระบบคอมพิวเตอร์ต่างๆ</li>
+          <li>ที่นั่งทำงานส่วนตัว (แอร์ฟรี เปิด 24 ชม)</li>
+          <li>Hi-Speed Internet ความเร็วมากกว่า 100 Mbps</li>
+          <li>Email@kmi.tl จาก Microsoft</li>
+          <li>สิทธิ์ดูแลเครื่องเซิฟเวอร์ต่างๆ ที่อยู่ในความดูแลของ CSAG</li>
+          <li>การดูแล อบรมจากพี่ๆ ผู้มีประสบการณ์</li>
+          <li>การช่วยเหลือและคำแนะนำเกี่ยวกับเทคโลยีที่สนใจ</li>
+          <li>ความรู้ แนวคิด และวัฒนธรรมองค์กร (<a href="#">Our Culture</a>)</li>
+        </ol>
+		-น้องๆที่ไม่สามารถเข้าร่วมกิจกรรมอบรมเชิงปฏิบัติการสามารถเข้าร่วมกิจกรรมเปิดรับสมาชิกใหม่ และ มาสอบในวันและเวลาดังกล่าวได้</br>
+		-การสอบจัดขึ้นที่สำนักวิจัยและบริการคอมพิวเตอร์<br/>
+		-การแต่งกาย ใส่กางเกงขายาว และรองเท้าผ้าใบ<br/>
+		-ไม่อนุญาติให้ใช้อุปกรณ์อิเลคทรอนิกส์ต่างๆในการสอบ เช่น เครื่องคิดเลข, โทรศัพท์  เป็นต้น</br>
+		-น้องๆนำอุปกรณ์เครื่องเขียนมาเอง<br/>
+		-เนื้อหาที่จะสอบเกี่ยวกับเนื้อหาที่พี่ๆสอนในกิจกรรมอบรมเชิงปฏิบัติการ<br/>
+		-คะแนนสอบเป็นเพียงส่วนหนึ่งในการพิจารณาคัดเลือกสอบสัมภาษณ์<br/>
+      </div>
+      <div class="col-md-4">
+        <img class="under-construction img-responsive" src="<?= base_url('assets/images/recruiting-logo.png') ?>">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="csag-event registration-process">
+	<div class="container">
+ <h5 align="center"><i class="fa fa-book"></i> ขั้นตอนการลงทะเบียน</h5>
         <ol>
           <li>ไปที่ <a href="http://csag.kmi.tl">csag.kmi.tl</a></li>
           <li>
@@ -88,30 +133,5 @@
       </div>
     </div>
   </div>
-</section>
-<section class="csag-event member-recruiting">
-  <div class="container">
-    <div class="row">
-      <h3 class="csag-header pull-right">Member Recruiting</h3>
-    </div>
-    <div class="row">
-      <div class="col-md-8">
-        [บ่นๆ]
-        <h5>สิทธิพิเศษสำหรับสมาชิก CSAG</h5>
-        <ol>
-          <li>เครื่องเซิฟเวอร์สำหรับทดลองและพัฒนาระบบคอมพิวเตอร์ต่างๆ</li>
-          <li>ที่นั่งทำงานส่วนตัว (แอร์ฟรี เปิด 24 ชม)</li>
-          <li>Hi-Speed Internet ความเร็วมากกว่า 100 Mbps</li>
-          <li>Email@kmi.tl จาก Microsoft</li>
-          <li>สิทธิ์ดูแลเครื่องเซิฟเวอร์ต่างๆ ที่อยู่ในความดูแลของ CSAG</li>
-          <li>การดูแล อบรมจากพี่ๆ ผู้มีประสบการณ์</li>
-          <li>การช่วยเหลือและคำแนะนำเกี่ยวกับเทคโลยีที่สนใจ</li>
-          <li>ความรู้ แนวคิด และวัฒนธรรมองค์กร (<a href="#">Our Culture</a>)</li>
-        </ol>
-      </div>
-      <div class="col-md-4">
-        <img class="under-construction img-responsive" src="<?= base_url('assets/images/recruiting-logo.png') ?>">
-      </div>
-    </div>
   </div>
-</section>
+ </section>
