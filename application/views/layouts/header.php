@@ -27,7 +27,7 @@
             <ul class="nav navbar-nav">
               <li class="<?= isset($home_active) && $home_active ? 'active' : '' ?>"><a href="<?= site_url('home') ?>">Home</a></li>
               <li class="dropdown <?= isset($events_active) && $events_active ? 'active' : '' ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Events
                   <b class="caret"></b>
                 </a>
@@ -36,7 +36,7 @@
                 </ul>
               </li>
               <li class="dropdown <?= isset($about_active) && $about_active? 'active': ''?>">
-                <a class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   About Us
                   <b class="caret"></b>
                 </a>

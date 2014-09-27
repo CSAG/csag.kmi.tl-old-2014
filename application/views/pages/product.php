@@ -8,7 +8,7 @@
 <section style="background-color:#fff; padding-bottom:5%; padding-top:5%;">
   <div class="container">
     <div class="row">
-   <span style="font-size:200%;">Webserv 3.0</span>
+   <span style="font-size:200%;">Webserv 2.0</span>
 		<div class="row">
 		  <div class="col-md-4">
 			<a href="http://webserv.kmitl.ac.th/" target="_blank" class="thumbnail">

@@ -5,7 +5,6 @@
 						background-color:white;
 					}
 				</style>
-
 			<!-- WHITE BASE DESIGN -->		
 			<div class=" row nmtb" >
 					<!-- HEADING  -->
@@ -79,7 +78,7 @@
 						</div>
 					</div>
 			</div>
-			
+		<div class="container">
 			<div class=" row nmtb">
 				<div class=" col-md-12">
 					<p align="center" style="font-size:50px;"> <b> Member </b></p>
